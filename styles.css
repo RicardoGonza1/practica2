@@ -3,7 +3,11 @@ h1{color: #0725FE; font-size: 30px; padding: 40px;
  font-family: 'Quicksand', sans-serif; }
 
 
-
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
 
 
@@ -15,6 +19,9 @@ h1{color: #0725FE; font-size: 30px; padding: 40px;
 
 body{
 	background-color: #ecf0f1;
+	
+
+
 }
 
 p{
@@ -23,8 +30,7 @@ p{
 	line-height: 155%;
 	padding: 3%;
 	text-indent: 2%;
-	text-align: justify;;
-
+	
 }
 
 h3{
@@ -55,9 +61,14 @@ img
 	height: auto;
 	width: auto; margin-bottom: -4px;
 
-
 }
 
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
 #wrapper{
 	max-width: 1200px;
 	margin: 0 auto;
